@@ -5,6 +5,10 @@ const Pelis = require("./peliculas");
 
 app.use(cors());
 
+app.get("/", function(req,res){
+    res.status(200).json({status:"success",message:"Api de peliculas desarrollada para la clase numero 3 del taller de Javascript - Cardumen Latam",author:"Luis Vilches"});
+})
+
 app.get("/peliculas", function(req,res){
     res.status(200).json({status:"success",data:Pelis,total:Pelis.length});
 })
