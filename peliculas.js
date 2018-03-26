@@ -9,6 +9,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Ryan Coogler",
         productora: "Marvel Studios / Walt Disney Pictures",
+        genders:["accion","aventuras","ciencia ficcion","fantastico"]
 
     },
     {
@@ -20,7 +21,8 @@ module.exports = [
         trailer:"https://www.youtube.com/watch?v=PhUMUr1q22c",
         pais: "Estados Unidos",
         director: "Anthony Russo,  Joe Russo",
-        productora: "Marvel Studios"
+        productora: "Marvel Studios",
+        genders:["accion","aventuras","ciencia ficcion","fantastico"]
     },
     {
         id:3,
@@ -32,6 +34,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Steven S. DeKnight",
         productora: "Universal Pictures / Double Dare You (DDY) / Legendary Entertainment / Perfect World Pictures",
+        genders:["accion","aventuras","ciencia ficcion","fantastico"]
     },
     {
         id:4,
@@ -43,6 +46,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Ava DuVernay",
         productora: "Walt Disney Pictures / Whitaker Entertainment",
+        genders:["accion","aventuras","ciencia ficcion","fantastico","familiar","infantil"]
     },
     {
         id:5,
@@ -54,6 +58,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "John Francis Daley,  Jonathan Goldstein",
         productora: "Warner Bros. / Aggregate Films / Davis Entertainment / New Line Cinema",
+        genders:["comedia","thriller","misterio","accion","policiaco"]
 
     },
     {
@@ -66,6 +71,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Steven Spielberg",
         productora: "Warner Bros. Entertainment / Amblin Entertainment / De Line Pictures / Village Roadshow Pictures / Reliance Entertainment",
+        genders:["fantastico","suspenso","aventuras","accion","ciencia ficcion"]
     },
     {   id:14,
         title: "Alita: Ángel de combate",
@@ -76,6 +82,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Robert Rodriguez",
         productora: "20th Century-Fox Film Corporation / Lightstorm Entertainment / Troublemaker Studios",
+        genders:["thriller","romantico","aventuras","accion","ciencia ficcion"]
 
     },
     {
@@ -88,7 +95,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Christopher McQuarrie",
         productora: "Paramount Pictures",
-
+        genders:["thriller","espionaje","suspenso","accion"]
     },
     {
         id:8,
@@ -100,7 +107,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Francis Lawrence",
         productora: "Chernin Entertainment / Film Rites / Soundtrack New York. Distribuida por Twentieth Century Fox Film Corporation",
-
+        genders:["thriller","espionaje","suspenso","drama","misterio"]
     },
     {
         id:9,
@@ -112,6 +119,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "J.A. Bayona",
         productora: "Amblin Entertainment / Universal Pictures",
+        genders:["aventuras","ciencia ficcion","accion"]
     },
     {
         id:10,
@@ -123,6 +131,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Greg Berlanti",
         productora: "Fox 2000 Pictures / Temple Hill Entertainment",
+        genders:["comedia","romantico","drama"]
     },
     {
         id:11,
@@ -134,6 +143,7 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Jaume Collet-Serra",
         productora: "Coproducción Estados Unidos-Reino Unido; Lionsgate / StudioCanal / Nvizage / Ombra Films",
+        genders:["accion","aventuras","drama","misterio","thriller","policiaco"]
     },
     {
         id:12,
@@ -145,6 +155,7 @@ module.exports = [
         pais: "Nueva Zelanda",
         director: "Christian Rivers",
         productora: "Coproducción Nueva Zelanda-Estados Unidos; Universal Pictures / Media Rights Capital / Scholastic Productions / Silvertongue Films / Wingnut Films",
+        genders:["steampunk","ficcion especulativa","aprendizaje","ficcion","infantil","ciencia ficcion","aulto joven"]
     },
     {
         id:13,
@@ -156,5 +167,6 @@ module.exports = [
         pais: "Estados Unidos",
         director: "Charles Stone III",
         productora: "Los Angeles Media Fund (LAMF). Distribuida por Netflix",
+        genders:["comedia","baile"]
     }
 ]
