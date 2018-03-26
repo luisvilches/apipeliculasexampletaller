@@ -27,6 +27,14 @@ app.get("/peliculas/:id", function(req,res){
     }
 })
 
+app.get("/genders",(req,res) => {
+    res.status(200).json({data:[
+        "accion","aventura","drama","comedia","infantil","familiar","ciencia ficcion","fantastico",
+        "policiaco","misterio","thriller","suspenso","romantico","espionaje","steampunk","ficcion especulativa",
+        "aprendizaje","infantil","adulto joven","baile"
+    ]});
+})
+
 
 app.listen(process.env.PORT || 5000, function(err){
     if(err){

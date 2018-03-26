@@ -155,7 +155,7 @@ module.exports = [
         pais: "Nueva Zelanda",
         director: "Christian Rivers",
         productora: "Coproducción Nueva Zelanda-Estados Unidos; Universal Pictures / Media Rights Capital / Scholastic Productions / Silvertongue Films / Wingnut Films",
-        genders:["steampunk","ficcion especulativa","aprendizaje","ficcion","infantil","ciencia ficcion","aulto joven"]
+        genders:["steampunk","ficcion especulativa","aprendizaje","ficcion","infantil","ciencia ficcion","adulto joven"]
     },
     {
         id:13,
